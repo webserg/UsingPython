@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>34848404-6587-448a-b856-79d325122d68</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>UsingPython.py</StartupFile>
+    <StartupFile>math.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="math.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="UsingPython.py" />
   </ItemGroup>
   <PropertyGroup>
